@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог | Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
   	<header class="main-header">
   		<nav class="main-navigation">
   			<a class="main-header-logo" href="index.html">
@@ -34,19 +36,19 @@
   				<fieldset class="filters-form filters-grid">
   					<legend>Сетка:</legend>
   					<ul>
-  						<li>
+  						<li class="filter-option">
   							<label>
   								<input type="radio" name="grid" value="adaptive" checked>
   								Адаптивная
   							</label>
   						</li>
-  						<li>
+  						<li class="filter-option">
   							<label>
   								<input type="radio" name="grid" value="fixed">
   								Фиксированная
   							</label>
   						</li>
-  						<li>
+  						<li class="filter-option">
   							<label>
   								<input type="radio" name="grid" value="responsive">
   								Резиновая
@@ -57,31 +59,31 @@
   				<fieldset class="filters-form filters-features">
   					<legend>Особенности:</legend>
   					<ul>
-  						<li>
+  						<li class="filter-option">
   							<label>
   								<input type="checkbox" name="feature" value="slider" checked>
   								Слайдер
   							</label>
   						</li>
-  						<li>
+  						<li class="filter-option">
 	  						<label>
 		  						<input type="checkbox" name="feature" value="features-block">
 		  						Блок преимуществ
 	  						</label>
   						</li>
-  						<li>
+  						<li class="filter-option">
 	  						<label>
 		  						<input type="checkbox" name="feature" value="news" checked>
 		  						Новости
   							</label>
   						</li>
-  						<li>
+  						<li class="filter-option">
   							<label>
 		  						<input type="checkbox" name="feature" value="gallery">
 		  						Галерея
   							</label>
   						</li>
-  						<li>
+  						<li class="filter-option">
 		  					<label>
 		  						<input type="checkbox" name="feature" value="cart">
 		  						Корзина
@@ -190,12 +192,12 @@
   	</main>
   	<footer class="main-footer">
     	<img class="maps" src="img/maps.png" alt="Карта">
-    	<p>Nerds design studio</p>
-    	<address class="contacts">
+    	<p class="contacts">Nerds design studio</p>
+    	<address class="contacts-item">
     		191186, Санкт-Петербург,
     		ул. Б. Конюшенная, д. 19/8
     	</address>
-    	<a href="tel:+78122757575">+7(812)275-75-75</a>
+    	<p class="contacts-phone">тел. <a href="tel:+78122757575">+7(812)275-75-75</a></p>
     		<a class="button button-writetous" href="#">Напишите нам</a>
     	<div class="footer-social">
     		<ul>
@@ -209,8 +211,8 @@
     				<a class="social-button" href="#">Инстаграм</a>
     			</li>
     		</ul>
-    		<p>Давайте дружить, это выгодно!</p>
-    		<p>Скидка 10% для друзей из социальных сетей.</p>
+    		<p class="footer-friends">Давайте дружить, это выгодно!</p>
+    		<p class="footer-discount">Скидка 10% для друзей из социальных сетей.</p>
     	</div>
     </footer>
     <section class="modal modal-writeus">
