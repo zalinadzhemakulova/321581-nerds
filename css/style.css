@@ -1,124 +1,22 @@
+/* ====== FONTS ====== */
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Roboto", Arial, sant-serif;
+
+	font-family: "Roboto", "Arial", sant-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #283136;
+
 	background-color: #ffffff;
 }
 a {
 	text-decoration: none;
 }
-.main-header {
-	font-size: 16px;
-	line-height: 30px;
-	color: #000000;
-	font-weight: 500;
-	background-color: #eeeeee;
-	text-transform: uppercase;
-}
-.site-navigation,
-.user-navigation {
-	list-style: none;
-}
-.site-navigation a,
-.user-navigation a {
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 500;
-	color: #000000;
-	text-transform: uppercase;
-}
-.site-navigation a:hover,
-.user-navigation a:hover {
-	color: #fb565a;
-}
-.site-navigation a:focus,
-.user-navigation a:focus {
-	color: #000000;
-	opacity: .3
-}
-.promo {
-	background-color: #eeeeee;
-}
-.slider-list {
-	list-style: none;
-}
-.slider-h {
-	font-size: 55px;
-	line-height: 55px;
-	font-weight: 500;
-	color: #000000;
-}
-.slider-threephone {
-	background-image: url("../img/slider-threephone.png");
-	background-repeat: no-repeat;
-	background-position: right center;
-}
-.slider-monitor {
-	background-image: url("../img/slider-monitor.png");
-	background-repeat: no-repeat;
-	background-position: right center;
-}
-.slider-laptopandphone {
-	background-image: url("../img/slider-laptopandphone.png");
-	background-repeat: no-repeat;
-	background-position: right center;
-}
-.features-list {
-	list-style: none;
-}
-.features-list h3 {
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: 500;
-	text-transform: uppercase;
-	color: #000000;
-}
-.features-website {
-	background-image: url(../img/index-website.png);
-	background-repeat: no-repeat;
-}
-.features-app {
-	background-image: url(../img/index-apps.png);
-	background-repeat: no-repeat;
-}
-.features-presentation {
-	background-image: url(../img/index-presentation.png);
-	background-repeat: no-repeat;
-}
-.about-us-main {
-	font-size: 45px;
-	line-height: 45px;
-	font-weight: 500;
-	color: #000000;
-}
-.about-orders {
-	font-weight: 700;
-	color: #000000;
-	text-transform: uppercase;
-}
-.our-services {
-	list-style: none;
-}
-.conditions p {
-	font-weight: 700;
-	color: #000000;
-	text-transform: uppercase;
-}
-.conditions-percent {
-	font-size: 45px;
-	line-height: 10.06px;
-	font-weight: 700;
-	color: #000000;
-}
-.partners-list {
-	list-style: none;
-	opacity: .2;
-}
-.contacts {
+
+/* ====== GLOBAL ====== */
+.contacts-title {
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 700;
@@ -169,11 +67,13 @@ a {
   	font-weight: 500;
   	vertical-align: middle;
   	text-transform: uppercase;
+
   	background-color: #fb565a;
   	border: none;
 }
 .button:focus {
 	color: rgba(255,255,255,0.3);
+
 	background-color: #d7373b;
 }
 .button:hover {
@@ -182,6 +82,7 @@ a {
 .social-button {
 	color: #000000;
 }
+/* ====== MODALS ====== */
 .modal h2 {
 	font-size: 45px;
 	line-height: 45px;
@@ -206,13 +107,128 @@ a {
 .form-writeus textarea:focus {
 	border: 2px solid #000000;
 }
+/* ====== HEADER ====== */
+.main-header {
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+
+	background-color: #eeeeee;
+}
+.site-navigation,
+.user-navigation {
+	list-style: none;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #000000;
+	text-transform: uppercase;
+}
+.site-navigation a,
+.user-navigation a {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #000000;
+	text-transform: uppercase;
+}
+.site-navigation a:hover,
+.user-navigation a:hover {
+	color: #fb565a;
+}
+.site-navigation a:focus,
+.user-navigation a:focus {
+	color: #000000;
+	opacity: .3;
+}
+.promo {
+	background-color: #eeeeee;
+}
+.slider-list {
+	list-style: none;
+}
+.slider-heading {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 500;
+	color: #000000;
+}
+.slider-item-design {
+	background-image: url("../img/slider-threephone.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.slider-item-math {
+	background-image: url("../img/slider-monitor.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.slider-item-work {
+	background-image: url("../img/slider-laptopandphone.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.features-list {
+	list-style: none;
+}
+.features-list h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #000000;
+}
+.features-website {
+	background-image: url("../img/index-website.png");
+	background-repeat: no-repeat;
+}
+.features-app {
+	background-image: url("../img/index-apps.png");
+	background-repeat: no-repeat;
+}
+.features-presentation {
+	background-image: url("../img/index-presentation.png");
+	background-repeat: no-repeat;
+}
+.about-us p:first-child {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+	color: #000000;
+}
+.about-us .about-us-services {
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+.our-services {
+	list-style: none;
+}
+.conditions p {
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+.conditions-percent {
+	font-size: 45px;
+	line-height: 10.06px;
+	font-weight: 700;
+	color: #000000;
+}
+.partners-list {
+	list-style: none;
+	opacity: .2;
+}
 h1 {
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
 	color: #000000;
-	background-color: #eeeeee;
 	text-align: center;
+
+	background-color: #eeeeee;
 }
 .filters fieldset {
   border: none;
@@ -224,20 +240,18 @@ h1 {
   text-transform: uppercase;
 }
 .filters ul {
-  list-style: none;
-  font-size: 16px;
-  line-height: 20px;
+	list-style: none;
+ 	font-size: 16px;
+  	line-height: 20px;
 }
 .catalog-list {
-  list-style: none;
+  	list-style: none;
 }
-
 .catalog-item {
-  background-color: rgba(77, 77, 77, 0.12);
+  	background-color: rgba(77, 77, 77, 0.12);
 }
-
 .catalog-item:hover {
-  background-color: rgb(77, 77, 77);
+  	background-color: rgb(77, 77, 77);
 }
 .catalog-item {
 	font-size: 16px;
@@ -252,15 +266,18 @@ h1 {
 }
 .button-show {
   	color: #000000;
+
   	background-color: #eeeeee;
   	border: none;
 }
 .button-show:hover {
 	color: #000000;
+
 	background-color: #dfdfdf;
 }
 .button-show:focus {
 	color: rgba(0,0,0,0.3);
+
 	background-color: #d5d5d5;
 }
 .pagination-list {
@@ -268,15 +285,18 @@ h1 {
 }
 .pagination-item a {
 	color: #000000;
+	text-transform: uppercase;
+
   	background-color: #eeeeee;
-  	text-transform: uppercase;
 }
 .pagination-item a:hover {
 	color: #000000;
+
 	background-color: #dfdfdf;
 }
 .pagination-item a:focus {
 	color: rgba(0,0,0,0.3);
+
 	background-color: #d5d5d5;
 }
 .pagination-item-active {
