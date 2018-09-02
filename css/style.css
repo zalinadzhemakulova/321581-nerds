@@ -95,6 +95,9 @@ a {
 	list-style: none;
 }
 /* ====== MODALS ====== */
+.modal {
+	display: none;
+}
 .modal h2 {
 	font-size: 45px;
 	line-height: 45px;
@@ -135,12 +138,13 @@ a {
 }
 .site-navigation,
 .user-navigation {
-	list-style: none;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 500;
 	color: #000000;
 	text-transform: uppercase;
+
+	list-style: none;
 }
 .site-navigation a,
 .user-navigation a {
@@ -244,7 +248,7 @@ a {
 	opacity: .2;
 }
 /* ====== CATALOG ====== */
-.catalog-heading {
+.page-content-title {
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
@@ -253,9 +257,9 @@ a {
 	margin: 0;
 	padding-bottom: 110px;
 	margin-bottom: 55px;
-
+}
+.intro {
 	background-color: #eeeeee;
-
 }
 .catalog-list {
   	list-style: none;
@@ -310,9 +314,10 @@ a {
   	text-transform: uppercase;
 }
 .filters ul {
-	list-style: none;
  	font-size: 16px;
   	line-height: 20px;
+  	
+  	list-style: none;
 }
 /* ====== Стили для сетки ====== */
 .container {
@@ -321,11 +326,11 @@ a {
 	padding: 0 20px;
 }
 .main-navigation {
+	display: flex;
+	justify-content: space-between;
 	width: 1160px;
 	margin: 0 auto;
 	padding: 0 20px;
-	display: flex;
-	justify-content: space-between;
 }
 .main-header-logo {
 	width: 160px;
@@ -345,21 +350,21 @@ a {
 	margin-bottom: 80px;
 }
 .features-list {
+	display: flex;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 
 	list-style: none;
-	display: flex;
-	justify-content: space-between;
 }
 .features-item {
 	width: 300px;
 }
 .about-company {
-	padding-top: 40px;
-	padding-bottom: 40px;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .partners {
 	margin-bottom: 80px;
@@ -415,4 +420,19 @@ a {
 	margin: 0;
 
   	list-style: none;
+}
+.visually-hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
