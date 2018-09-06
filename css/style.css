@@ -251,9 +251,9 @@ img {
 	flex-direction: row;
 }
 .site-navigation .active {
-padding-bottom: 5px;
-border-bottom: 2px solid #f7898b;
-width: 74px;h
+	padding-bottom: 5px;
+	border-bottom: 2px solid #f7898b;
+	width: 74px;
 }
 /* ====== INDEX ====== */
 /* ====== PROMO ====== */
